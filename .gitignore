@@ -1,0 +1,16 @@
+.env
+*.key
+*.pem
+*.mp3
+*.mp4
+*.mov
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.prproj
+private/
+assets-private/
+exports/
+node_modules/
