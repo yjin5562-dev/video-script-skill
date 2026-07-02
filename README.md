@@ -13,6 +13,7 @@ It is a reusable workflow for converting real material into publishable video pl
 - Project recap videos.
 - Short educational clips.
 - Voiceover and caption package generation.
+- Documentary-style explainers that need reference breakdown, evidence tables, visual masters, and audiovisual QA.
 
 ## Install
 
@@ -30,6 +31,10 @@ Use video-script-skill to make a 90-second script from this project demo note, w
 ## Not Public
 
 No copyrighted media, private footage, licensed music, raw recordings, customer data, API keys, or account exports are included.
+
+## Quality Gates
+
+For dense explainer videos, do not stop at a script. Produce the reference breakdown, evidence table, shot plan, source list, and QA notes before calling a draft ready for review.
 
 ## Local Private Data
 
