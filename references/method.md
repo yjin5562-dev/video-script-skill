@@ -112,3 +112,30 @@ Known tool boundary:
 
 - Directly generating modern CapCut/Jianying project files may be unreliable across app versions. Prefer stable media import packages unless the current editor format has been verified.
 - Programmatic renderers are useful for structure, subtitles, overlays, and repeatable packaging, but the final polish gate should still check pacing, readability, source fit, music, and human review notes.
+
+## Preview-First Production States
+
+Use this when the video is iterated through browser preview, rendered MP4, and optional editor polish.
+
+State labels:
+
+1. `script-ready`: topic, claim boundary, timeline script, and source table exist.
+2. `preview-review`: a browser or low-cost preview can be reviewed by timecode.
+3. `mp4-rendered`: an MP4 exists, but it has not passed final QA.
+4. `qa-passed`: duration, audio, subtitles, visual proof, and text readability have been checked.
+5. `editor-polish-ready`: stable media, captions, source table, and open issues are packaged for CapCut/Jianying, Premiere, or another editor.
+6. `publish-ready`: final human review is complete and platform-specific captions, cover, and export settings are confirmed.
+7. `published`: platform evidence exists.
+
+Rules:
+
+- Do not skip directly from preview to publish-ready.
+- Review previews by timecode, not by vague comments.
+- Keep engineering preview, rendered MP4, QA-passed file, editor handoff, and platform publication as separate deliverables.
+- If a user voiceover is missing, label the project as preproduction or structure preview.
+- If customer, account, or private footage appears in a draft, keep it private and record the redaction requirement before public packaging.
+
+Preview review note format:
+
+| Timecode | Issue | Evidence affected | Required change | Status |
+|---|---|---|---|---|
